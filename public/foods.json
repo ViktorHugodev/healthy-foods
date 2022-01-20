@@ -1,0 +1,46 @@
+{
+	"foods": [
+		{
+			"title": "Broccoli Salad With Bacon",
+			"pathImg": "broccoli"
+		},
+		{
+			"title": "Classic Beef Burgers",
+			"pathImg": "beef"
+		},
+		{
+			"title": "Classic Potato Salad",
+			"pathImg": "potato"
+		},
+		{
+			"title": "Cherry Cobbler on the Grill",
+			"pathImg": "cobbler"
+		}
+	],
+	"posts": [
+		{
+			"title": "Quick-start guid to nuts and seeds",
+			"avatar": "kevin",
+			"author": "Kevin Ibrahim",
+			"image": "blog-img1"
+		},
+		{
+			"title": "Nutrition: Tips for Improving Your Health",
+			"avatar": "mike",
+			"author": "Mike Jackson",
+			"image": "blog-img2"
+		},
+		{
+			"title": "The top 10 benefits of eating healthy",
+			"avatar": "bryan",
+			"author": "Bryan McGragor ",
+			"image": "blog-img3"
+		},
+		{
+			"title": "What Makes Haealthy Diet?",
+			"avatar": "jashua",
+			"author": "Jashua",
+			"image": "blog-img4"
+		}
+	]
+}

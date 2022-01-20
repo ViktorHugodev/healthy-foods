@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+#main {
+	max-width: 1366px;
+	margin: 0 auto;
+	height: 90vh;
+
+	background: url('/assets/Illustration.svg') right top no-repeat;
+
+	// background-color: $apple;
+}
+
+@media (max-width: 1080px) {
+	#main {
+		background: url('/assets/Illustration.svg') right bottom no-repeat;
+		background-size: 60%;
+	}
+}
+@media (max-width: 720px) {
+	#main {
+		height: 80vh;
+		background: none;
+		background-size: 60%;
+	}
+}

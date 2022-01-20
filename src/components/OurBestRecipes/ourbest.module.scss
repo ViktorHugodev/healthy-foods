@@ -1,0 +1,128 @@
+@import '../../styles/variables';
+
+.OurBestRecipesContent {
+	max-width: 1366px;
+	margin: 0 auto;
+	background: $bg-gray;
+	height: 80vh;
+}
+.OurBestSect {
+	max-width: 1080px;
+	margin: 0 auto;
+	color: blue;
+	// padding-top: 6rem;
+	text-align: center;
+
+	h3 {
+		font-family: $MontR;
+		font-size: $font-size-xl;
+		color: $title;
+	}
+
+	p {
+		font-family: $MuliB;
+		font-size: $font-size-m;
+		color: $gray;
+	}
+}
+
+.GridCard {
+	margin: 0;
+	max-width: 67rem;
+	max-height: 30rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2.5rem;
+}
+
+.GridItem {
+	display: flex;
+	box-shadow: rgb(0 0 0 / 9%) 5px 5px 5px;
+	margin-top: 2rem;
+	border-radius: 0.35rem;
+
+	.InfoItem {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 1.5rem;
+		padding-left: 1.5rem;
+		span {
+			max-width: 12rem;
+			display: block;
+			font-family: $MontR;
+			font-size: $font-size-l;
+			color: $title;
+		}
+
+		button {
+			height: 3rem;
+			width: 8.2rem;
+			border-radius: 0.35rem;
+			border: none;
+			background: $logo;
+			color: $white;
+			font-weight: $MuliR;
+			font-size: $font-size-m;
+			cursor: pointer;
+			transition: 0.5s;
+
+			&:hover {
+				filter: brightness(0.8);
+			}
+		}
+	}
+}
+
+.Carousel {
+	display: flex;
+	scroll-behavior: smooth;
+	flex-direction: row;
+}
+@media (max-width: 720px) {
+	.OurBestRecipesContent {
+		.OurBestSect {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 auto;
+		}
+		.GridCard {
+			grid-template-columns: 250px 250px;
+			gap: 2.5rem;
+			span {
+				font-size: $font-size-m;
+			}
+			button {
+				max-width: 5rem;
+				height: 2rem;
+			}
+		}
+	}
+}
+@media (max-width: 580px) {
+	.OurBestRecipesContent {
+		height: 200vh;
+		.OurBestSect {
+			h3 {
+				font-size: $font-size-l;
+				margin-bottom: 2rem;
+			}
+			p {
+				font-size: $font-size-m;
+			}
+		}
+		.GridCard {
+			grid-template-columns: 1fr;
+			span {
+				font-size: $font-size-l;
+			}
+			button {
+				height: 3rem;
+				width: 8.2rem;
+			}
+		}
+	}
+}

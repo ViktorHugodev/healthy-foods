@@ -1,0 +1,25 @@
+@import '../styles/variables';
+
+.Container {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	background: url('/assets/bg-join.svg') no-repeat center left;
+	background-size: 80%;
+	// background-size: cover;
+	text-align: center;
+	h2 {
+		padding: 2rem;
+		font-family: $MontR;
+		font-size: $font-size-xxl;
+		color: $title;
+	}
+
+	p {
+		margin-top: 1rem;
+		font-family: $MuliR;
+		font-size: $font-size-m;
+		color: $gray;
+		line-height: 1.5;
+	}
+}
