@@ -11,7 +11,7 @@ export function GridCard() {
   const [foods, setFoods] = useState<FoodsProps[]>([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/foods.json')
+    fetch('https://healthy-foods-seven.vercel.app/foods.json')
       .then(response => response.json())
       .then(response => setFoods(response.foods))
 
