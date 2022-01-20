@@ -90,7 +90,7 @@ export function FormInput() {
               </div>
             </div>
             <div className={styles.BoxInput}>
-              <label>Email</label>
+              <label>Birth day</label>
               <Field type="date"
                 name="birthDay"
                 placeholder="Birth day" />
@@ -124,7 +124,7 @@ export function FormInput() {
 
             <div className="form-street">
               <div className={styles.BoxInput}>
-                <label>Stret:</label>
+                <label>Street</label>
                 <Field type="text"
                   name="street"
                   placeholder="Street address" />
@@ -134,7 +134,7 @@ export function FormInput() {
               </div>
 
               <div className={styles.BoxInput}>
-                <label>N:</label>
+                <label>N</label>
                 <Field type="text"
                   name="number"
                   placeholder="Number" />
