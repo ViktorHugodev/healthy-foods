@@ -1,28 +1,68 @@
-Bom dia Candidato,
+<h1 align="center">Healthy Foods 🍉<h1>
 
-Tudo bem?
 
-Para darmos continuidade em seu processo seletivo, pedimos que você realize o seguinte teste:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/85125378/150432029-d76a4fe6-042f-4ab8-8214-419b00f28240.png"/>
 
-1.	 Desenvolver o site que está em anexo utilizando toda a estrutura do React, o site tem que ser 100% responsivo, iremos avaliar bem a responsividade.
+![Healthy Foods (1)](https://user-images.githubusercontent.com/85125378/150433042-239d0775-ecbb-4a25-9e2f-a4727268b8de.gif)
 
-2.	 Criar a tela de cadastro baseada na tela inicial, o cadastro precisa receber os dados abaixo: 
 
-      a.	Nome
 
-      b.	Data de nascimento
-
-      c.	CPF
-
-      d.	CEP 
-
-      i.	Utilizar a API dos correios para preencher os demais campos que compõe o endereço.
-
-      e.	Validação dos campos
+## 📚 Informações sobre o projeto
       
-      f.	Armazenar os dados do formulário no local storage e Cookies
+
+* Esse projeto foi desenvolvido como teste técnico para uma vaga Frontend JR
+
+  * Landing Page com dados dinâmicos via .json.
+
+  * Automatização de endereço no formulário via API.
+
+  * Formulários utilizando Formik e Yup na validação.
+      
+      
+&nbsp;
+___
+&nbsp;
 
 
-3.	 Não precisa utilizar banco de dados
+## 🛠️ Tecnologias/Ferramentas ultilizadas
 
-Ao final, criar um repositório público e enviar o link e se possível subir o site em um domínio gratuito.
+* [React](https://pt-br.reactjs.org/E)
+* [Next.js](https://nextjs.org/)
+* [Formik](https://formik.org/)
+
+&nbsp;
+___
+&nbsp;
+
+## ⚙️ Instalação
+```
+# Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/ViktorHugodev/healthy-foods
+```
+
+```
+# Acesse a pasta da aplicação
+$ cd healthy-foods
+
+# Instale as dependências
+$ yarn
+
+# Inicie a aplicação
+$ yarn dev
+
+
+```
+
+&nbsp;
+___
+&nbsp;
+
+
+## 📝 Licença
+- Este projeto está licenciado sob a Licença MIT. Veja o arquivo de LICENÇA para detalhes.
+&nbsp;
+___
+&nbsp;
+
+<p align="center">Feito por Victor Hugo<p>
