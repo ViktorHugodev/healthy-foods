@@ -18,6 +18,8 @@
   * Automatização de endereço no formulário via API.
 
   * Formulários utilizando Formik e Yup na validação.
+  
+  * Projeto no ar: [Link](https://healthy-foods-seven.vercel.app/)
       
       
 &nbsp;
