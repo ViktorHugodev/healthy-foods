@@ -56,11 +56,11 @@
 }
 @media (max-width: 580px) {
 	.Box {
-		position: relative;
+		position: static;
 		margin: 0 auto;
-		left: 0;
-		top: 15%;
-
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		.BoxInput {
 			margin-top: 5rem;
 		}

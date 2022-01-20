@@ -5,10 +5,10 @@ import { MobileSidebar } from "./MobileSIdebar";
 
 export function Main() {
   return (
-    <div id={styles.main} >
+    <section id={styles.main} >
       <Header />
       <MobileSidebar />
       <InputField />
-    </div>
+    </section>
   )
 }

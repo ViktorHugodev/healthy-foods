@@ -3,7 +3,7 @@
 #main {
 	max-width: 1366px;
 	margin: 0 auto;
-	height: 90vh;
+	height: 100vh;
 
 	background: url('/assets/Illustration.svg') right top no-repeat;
 
@@ -13,13 +13,13 @@
 @media (max-width: 1080px) {
 	#main {
 		background: url('/assets/Illustration.svg') right bottom no-repeat;
-		background-size: 60%;
+		background-size: 80%;
 	}
 }
 @media (max-width: 720px) {
 	#main {
-		height: 80vh;
-		background: none;
-		background-size: 60%;
+		height: 100vh;
+		background: url('/assets/Illustration.svg') right bottom no-repeat;
+		background-size: 100%;
 	}
 }

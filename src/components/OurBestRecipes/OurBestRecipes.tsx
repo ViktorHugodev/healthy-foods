@@ -5,7 +5,7 @@ import { GridCard } from "./GridCard";
 
 export function OurBestRecipes() {
   return (
-    <div className={styles.OurBestRecipesContent}>
+    <section className={styles.OurBestRecipesContent}>
 
       <section className={styles.OurBestSect} id="OurBestRecipes">
         <h3>
@@ -17,7 +17,7 @@ export function OurBestRecipes() {
         </p>
         <GridCard />
       </section>
-    </div>
+    </section>
 
   )
 }

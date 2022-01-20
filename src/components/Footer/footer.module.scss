@@ -2,7 +2,7 @@
 
 .Footer {
 	max-width: 1366px;
-	margin: 0 3rem;
+	margin: 0 2rem;
 	height: 6.25rem;
 	display: flex;
 	justify-content: space-between;
@@ -37,12 +37,16 @@
 		display: flex;
 		flex-direction: row;
 		font-size: 0.5rem;
+		padding: 0;
 		.LeftInfo {
 			a {
 				font-size: 0.6rem;
 			}
 		}
 		.RightInfo {
+			a {
+				margin: 0;
+			}
 			font-size: 0.6rem;
 		}
 	}

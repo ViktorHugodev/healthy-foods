@@ -3,7 +3,7 @@
 .JoinUsContent {
 	max-width: 1366px;
 	margin: 0 auto;
-	height: 80vh;
+	height: 100vh;
 	background: url('/assets/bg-join.svg') no-repeat right top;
 	display: flex;
 	align-items: center;
@@ -12,6 +12,7 @@
 		position: relative;
 		left: 100px;
 		h3 {
+			margin-bottom: 2rem;
 			font-size: $font-size-xl;
 			font-family: $MontR;
 			color: $title;
@@ -19,7 +20,7 @@
 		.InputBox {
 			display: flex;
 			align-items: center;
-
+			width: 28rem;
 			input {
 				width: 21rem;
 				height: 3.25rem;
@@ -50,12 +51,13 @@
 					filter: brightness(0.8);
 				}
 			}
-			width: 28rem;
 		}
 	}
 }
-@media (max-width: 580px) {
+@media (max-width: 720px) {
 	.JoinUsContent {
+		background: url('/assets/bg-join.svg') no-repeat center right -200px;
+		background-size: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -64,8 +66,24 @@
 			position: static;
 		}
 		margin: 0 auto;
-		h3 {
-			margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 520px) {
+	.JoinUsContent {
+		background: url('/assets/bg-join.svg') no-repeat center left -200px;
+		background-size: 200%;
+
+		.JoinBox {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: center;
+			max-width: 20rem;
+
+			.InputBox {
+				max-width: 100%;
+			}
 		}
 	}
 }

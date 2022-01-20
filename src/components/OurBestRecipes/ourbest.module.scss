@@ -4,19 +4,21 @@
 	max-width: 1366px;
 	margin: 0 auto;
 	background: $bg-gray;
-	height: 80vh;
+	padding: 2rem;
 }
 .OurBestSect {
+	height: 100vh;
 	max-width: 1080px;
 	margin: 0 auto;
 	color: blue;
-	// padding-top: 6rem;
 	text-align: center;
+	padding: 1rem;
 
 	h3 {
 		font-family: $MontR;
 		font-size: $font-size-xl;
 		color: $title;
+		margin-bottom: 1rem;
 	}
 
 	p {
@@ -28,8 +30,8 @@
 
 .GridCard {
 	margin: 0;
-	max-width: 67rem;
-	max-height: 30rem;
+	min-width: 20rem;
+	min-height: 15rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 2.5rem;
@@ -76,14 +78,15 @@
 	}
 }
 
-.Carousel {
-	display: flex;
-	scroll-behavior: smooth;
-	flex-direction: row;
-}
+// .Carousel {
+// 	display: flex;
+// 	scroll-behavior: smooth;
+// 	flex-direction: row;
+// }
 @media (max-width: 720px) {
 	.OurBestRecipesContent {
 		.OurBestSect {
+			height: 100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -96,7 +99,7 @@
 				font-size: $font-size-m;
 			}
 			button {
-				max-width: 5rem;
+				width: 5rem;
 				height: 2rem;
 			}
 		}
@@ -104,8 +107,8 @@
 }
 @media (max-width: 580px) {
 	.OurBestRecipesContent {
-		height: 200vh;
 		.OurBestSect {
+			height: 100%;
 			h3 {
 				font-size: $font-size-l;
 				margin-bottom: 2rem;
